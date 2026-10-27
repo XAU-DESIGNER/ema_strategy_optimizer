@@ -7,6 +7,7 @@
 </div>
 
 Ema cross strategy optimizer using local search algorithm
+PnL is unrealized
 
 ## Topics
 

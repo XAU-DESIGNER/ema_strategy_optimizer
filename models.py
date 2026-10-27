@@ -9,3 +9,4 @@ class Strategy:
     pnl: float
     total_commission: float
     average_spread: float
+    initial_balance: float

@@ -1,7 +1,7 @@
 import sys
 
-from utils import DataLoader
-from utils import Optimizer
+from DataLoader import DataLoader
+from Optimizer import Optimizer
 
 def main():
     if len(sys.argv) > 2:

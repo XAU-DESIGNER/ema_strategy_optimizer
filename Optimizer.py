@@ -1,36 +1,22 @@
 import csv
 from models import Strategy
 
-
-class DataLoader:
-    @staticmethod
-    def load_data(directory: str) -> list[Strategy]:
-        strategies = []
-
-        with open(f"{directory}/small.csv", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-
-            for row in reader:
-                strategy = Strategy(
-                    fast_ema=int(row["fast_ema"]),
-                    slow_ema=int(row["slow_ema"]),
-                    losing_streak=int(row["losing_streak"]),
-                    drawdown=float(row["drawdown"]),
-                    pnl=float(row["PnL"]),
-                    total_commission=float(row["Commission"]),
-                    average_spread=float(row["avg_spread"])
-                )
-
-                strategies.append(strategy)
-
-        return strategies
-
-
 class Optimizer:
-
     @staticmethod
     def calculate_score(strategy: Strategy) -> float:
-        return strategy.pnl - strategy.drawdown * 5
+        if strategy.initial_balance <= 0:
+            return float("-inf")
+
+        if strategy.drawdown < 0:
+            return float("-inf")
+
+        net_pnl = strategy.pnl - strategy.total_commission
+        roi = net_pnl / strategy.initial_balance * 100
+
+        if strategy.drawdown == 0:
+            return float("inf") if roi > 0 else float("-inf")
+
+        return roi / strategy.drawdown
 
     @staticmethod
     def find_strategy(

@@ -1,8 +1,9 @@
 # Forex strategy optimizer
 <div align=center>
-![GitHub last commit](https://img.shields.io/github/last-commit/XAU-DESIGNER/forex_strategy_optimizer/?style=for-the-badge&labelColor=101418&color=9ccbfb)
-![GitHub Repo stars](https://img.shields.io/github/stars/XAU-DESIGNER/forex_strategy_optimizer/?style=for-the-badge&labelColor=101418&color=b9c8da)
-![GitHub repo size](https://img.shields.io/github/repo-size/XAU-DESIGNER/forex_strategy_optimizer/?style=for-the-badge&labelColor=101418&color=d3bfe6)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/XAU-DESIGNER/forex_strategy_optimizer?style=for-the-badge&labelColor=101418&color=9ccbfb)
+![GitHub Repo stars](https://img.shields.io/github/stars/XAU-DESIGNER/forex_strategy_optimizer?style=for-the-badge&labelColor=101418&color=b9c8da)
+![GitHub repo size](https://img.shields.io/github/repo-size/XAU-DESIGNER/forex_strategy_optimizer?style=for-the-badge&labelColor=101418&color=d3bfe6)
 </div>
 
 Ema cross strategy optimizer using local search algorithm

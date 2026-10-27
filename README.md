@@ -1,1 +1,1 @@
-# forex_strategy_optimizer
+# Forex strategy optimizer

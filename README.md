@@ -1,4 +1,4 @@
-# Forex strategy optimizer
+# Forex (ema) strategy optimizer
 <div align=center>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/XAU-DESIGNER/forex_strategy_optimizer?style=for-the-badge&labelColor=101418&color=9ccbfb)
@@ -6,6 +6,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/XAU-DESIGNER/forex_strategy_optimizer?style=for-the-badge&labelColor=101418&color=d3bfe6)
 </div>
 
+My first optimization implementation
 Ema cross strategy optimizer using local search algorithm
 PnL is unrealized
 

@@ -10,6 +10,9 @@ My first optimization implementation
 Ema cross strategy optimizer using local search algorithm
 PnL is unrealized
 
+if you are interested in Forex optimization, check this out!
+https://github.com/XAU-DESIGNER/forex_genetic_algorithm
+
 ## Topics
 
 * Algorithms and Search
